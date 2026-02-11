@@ -5,11 +5,11 @@ let on_off = btn.innerHTML
 console.log(lamp);
 
 function interrutore_luce(){
-    if(on_off === 'accendi'){
+    if(on_off === 'Accendi'){
         lamp.src = "img/yellow_lamp.png"
-        on_off  = 'spegni';
+        on_off  = 'Spegni';
     } else{
-        on_off = 'accendi';
+        on_off = 'Accendi';
       lamp.src = "img/white_lamp.png"
     }
 }
